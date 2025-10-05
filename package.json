@@ -1,22 +1,14 @@
 {
-  "name": "knowledge-scout",
+  "name": "knowledge-scout-backend",
   "version": "1.0.0",
-  "description": "Intelligent document analysis and Q&A platform",
-  "main": "index.js",
+  "description": "Backend for Intelligent Document Analysis and Q&A platform",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "npm run dev:backend & npm run dev:frontend",
-    "dev:backend": "cd backend && npm run dev",
-    "dev:frontend": "cd frontend && npm start",
-    "server": "cd backend && npm run dev",
-    "client": "cd frontend && npm start",
-    "build": "cd frontend && npm run build",
-    "start": "cd backend && npm start",
-    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+    "dev": "cd backend && npm run dev",
+    "build": "cd backend && npm run build",
+    "start": "cd backend && npm start"
   },
-  "keywords": ["document-analysis", "ai", "qa", "knowledge-management"],
+  "keywords": ["backend", "document-analysis", "ai", "qa", "knowledge-management"],
   "author": "Knowledge Scout Team",
-  "license": "MIT",
-  "devDependencies": {
-    "concurrently": "^8.2.2"
-  }
+  "license": "MIT"
 }
