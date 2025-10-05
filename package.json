@@ -4,9 +4,9 @@
   "description": "Backend for Intelligent Document Analysis and Q&A platform",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "cd backend && npm run dev",
-    "build": "cd backend && npm run build",
-    "start": "cd backend && npm start"
+  "dev": "cd backend && npm install && npm run dev",
+  "build": "cd backend && npm install && npm run build",
+  "start": "cd backend && npm install && npm start"
   },
   "keywords": ["backend", "document-analysis", "ai", "qa", "knowledge-management"],
   "author": "Knowledge Scout Team",
